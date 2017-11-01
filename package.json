@@ -1,0 +1,19 @@
+{
+  "name": "atlassian-marketplace-compatibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "atlassian-marketplace-compatibility": "atlassian-marketplace-compatibility.js"
+  },
+  "scripts": {
+    "test": "node index.js 9093"
+  },
+  "author": "Tilman Potthof <tpotthof@seibert-media.ne>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
