@@ -4,10 +4,10 @@
 
 ## Usage (CLI)
 
-    npm install -g atlassian-marketpplace-compatibility
+    npm install -g atlassian-marketplace-compatibility
     
     # example vendorID 9093 (vendor: //SEIBERT/MEDIA) 
-    atlassian-market-place-compatibility <your-vendor-id>
+    atlassian-marketplace-compatibility <your-vendor-id>
 
 ## Usage (API)
 
