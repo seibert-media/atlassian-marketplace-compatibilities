@@ -44,7 +44,7 @@ const atlassianMarketplaceCompatibility = {
             if (supported !== null) {
                 addons = _.filter(addons, {supported: true});
             }
-            return _.groupBy(addons, (addon) => addon.serverCompatibility.max.version);
+            return _.groupBy(addons, (addon) => ((addon.serverCompatibility || {}).max || {}).version || "?");
         });
     }
 };
